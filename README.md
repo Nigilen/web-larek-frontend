@@ -41,7 +41,7 @@ npm run build
 yarn build
 ```
 
-![alt text](https://github.com/Nigilen/web-larek-frontend-main/blob/main/uml.png?raw=true)
+![alt text](https://github.com/Nigilen/web-larek-frontend/blob/main/uml.png)
 
 
 ## Базовый код
