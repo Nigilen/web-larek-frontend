@@ -73,7 +73,7 @@ yarn build
 
 Класс EventEmitter обеспечивает работу событий. Его функции: возможность установить и снять слушателей событий, вызвать слушателей при возникновении события.
 Реализуется по интерфейсу `IEvents`.
-```
+```tsx
 interface IEvents {
   on<T extends object>(event: EventName, callback: (data: T) => void): void;
   emit<T extends object>(event: string, data?: T): void;
