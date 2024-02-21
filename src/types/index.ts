@@ -1,12 +1,4 @@
-interface IAppState {
-  catalog: IProductItem[];
-  preview: string;
-  basket: string[];
-  order: IOrder;
-  loading: boolean;
-}
-
-interface IProductItem {
+export interface IProductItem {
   id: string;
   title: string;
   description: string;
@@ -15,14 +7,36 @@ interface IProductItem {
   price: number | null;
 }
 
-interface IProductsList {
+export interface IAppState {
+  catalog: IProductItem[];
+  preview: string;
+  basket: string[];
+  order: IOrder;
+  total: string | number;
+  loading: boolean;
+}
+
+
+export interface IProductsList {
   products: IProductItem[];
 }
 
-interface IOrder {
+
+export interface IOrderForm {
+  payment?: string;
+  address?: string;
+  phone?: string;
+  email?: string;
+  total?: string | number;
+}
+
+export interface IOrder extends IOrderForm {
   items: string[];
-  payment: string;
-  email: string;
-  phone: string;
-  address: string;
+}
+
+
+export type FormErrors = Partial<Record<keyof IOrder, string>>;
+
+export interface IOrderResult {
+  id: string;
 }
