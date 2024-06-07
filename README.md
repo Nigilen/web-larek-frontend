@@ -1,6 +1,7 @@
 # Проектная работа «Веб-ларек»
 
-Стек: HTML, SCSS, TS, Webpack
+СТЕК: HTML, SCSS, TS, Webpack
+ДЕПЛОЙ: [ссылка](https://nigilen.github.io/web-larek-frontend/)
 
 Структура проекта:
 - src/ — исходные файлы проекта
