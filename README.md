@@ -2,17 +2,25 @@
 
 Интернет-магазин для практики работы с TS и ООП, в котором можно оформить заказ.
 
+![image](https://github.com/Nigilen/web-larek-frontend/assets/38656496/672995a2-a3a8-4758-9ea8-791a94dea867)
+
+
 ## Деплой проекта
 
 [ссылка](https://nigilen.github.io/web-larek-frontend/)
 
 ## Используемые технологии:
 
-HTML, SCSS, TS, Webpack, ООП
+- HTML
+- SCSS
+- TS
+- Webpack
+- ООП
 
 ## Установка и запуск проекта
-npm install
-npm run start
+
+1. npm i
+2. npm run start
 
 ## UML-схема
 
