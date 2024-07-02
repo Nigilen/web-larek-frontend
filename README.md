@@ -1,6 +1,6 @@
 # Проектная работа «Веб-ларек»
 
-**СТЕК**: HTML, SCSS, TS, Webpack
+**СТЕК**: HTML, SCSS, TS, Webpack, ООП
 
 **ДЕПЛОЙ**: [ссылка](https://nigilen.github.io/web-larek-frontend/)
 
@@ -30,17 +30,6 @@ npm run start
 ```
 yarn
 yarn start
-```
-## Сборка
-
-```
-npm run build
-```
-
-или
-
-```
-yarn build
 ```
 
 ![alt text](https://github.com/Nigilen/web-larek-frontend/blob/main/uml.png)
